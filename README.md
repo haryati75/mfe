@@ -16,3 +16,12 @@ Remotes:
 - marketing
 - dashboard
 - auth
+
+Deployment:
+
+- GitHub Actions - Workflows and Environment Secrets
+- AWS S3 Bucket (files/objects - index.html, RemoteEntry.js, main.js, etc)
+- AWS Cloudfront (domain)
+  - invalidation
+- AWS IAM to access S3 and Cloudfront
+- GitHub Pull Requests - Dev to Deployment workflow
